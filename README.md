@@ -1,6 +1,6 @@
 # Goldbeater for AI agents
 
-Goldbeater is Google Ads analysis software for people who run their own accounts. Every day it runs 165 checks for 273 problems over the whole account, and each week an AI agent follows up on what they find and shows every query it ran. Each finding comes with its evidence, and each change it drafts waits for a person to approve and apply it. Plans start at $249 a month, with a 7-day trial.
+Goldbeater is Google Ads analysis software for people who run their own accounts. Every day it checks the whole account for 250+ problems, and each week an AI agent follows up on what it finds and shows every query it ran. Each finding comes with its evidence, and each change it drafts waits for a person to approve and apply it. Plans start at $249 a month, with a 7-day trial.
 
 This repository holds what an AI agent needs to read Goldbeater's findings: a skill, and the address of Goldbeater's MCP server. The server is hosted by Goldbeater, and its code is not here.
 

@@ -5,7 +5,7 @@ description: "Read what Goldbeater found in a Google Ads account, through Goldbe
 
 # Goldbeater
 
-Goldbeater audits Google Ads accounts: every 24 hours, and whenever someone asks, it runs 165 checks for 273 problems over the whole account and stores what they find. Its MCP server gives an AI assistant read-only access to those findings, for the accounts its person can open in Goldbeater.
+Goldbeater audits Google Ads accounts: every 24 hours, and whenever someone asks, it checks the whole account for 250+ problems and stores what it finds. Its MCP server gives an AI assistant read-only access to those findings, for the accounts its person can open in Goldbeater.
 
 ## When to use
 
