@@ -31,6 +31,7 @@ The tools only read. A change to an account is made in Goldbeater, where a perso
 
 - `skills/goldbeater/SKILL.md`: the skill.
 - `plugin.json` and `mcp.json`: the same skill and server as an [Agent Plugins](https://agent-plugins.org) package.
+- `LICENSE`: MIT, for the files in this repository.
 
 These files are written from goldbeater.ai's own content, so a change is made there and a pull request here isn't merged. Questions go to support@goldbeater.ai.
 

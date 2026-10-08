@@ -9,6 +9,7 @@
   },
   "homepage": "https://goldbeater.ai/mcp",
   "repository": "https://github.com/pressroom-ai/goldbeater-skill",
+  "license": "MIT",
   "keywords": [
     "google-ads",
     "ppc",
