@@ -1,0 +1,15 @@
+{
+  "name": "goldbeater",
+  "description": "Goldbeater's skill and MCP server for Claude Code.",
+  "owner": {
+    "name": "Goldbeater",
+    "url": "https://goldbeater.ai"
+  },
+  "plugins": [
+    {
+      "name": "goldbeater",
+      "source": "./",
+      "description": "Read what Goldbeater found in a Google Ads account: each finding, its evidence, what it's worth and its drafted fix."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "goldbeater",
+  "description": "Read what Goldbeater found in a Google Ads account: each finding, its evidence, what it's worth and its drafted fix.",
+  "author": {
+    "name": "Goldbeater",
+    "url": "https://goldbeater.ai"
+  },
+  "homepage": "https://goldbeater.ai/mcp",
+  "repository": "https://github.com/pressroom-ai/goldbeater-skill",
+  "license": "MIT",
+  "keywords": [
+    "google-ads",
+    "ppc",
+    "mcp",
+    "agent-skill"
+  ],
+  "mcpServers": {
+    "goldbeater": {
+      "type": "http",
+      "url": "https://api.goldbeater.ai/mcp"
+    }
+  }
+}

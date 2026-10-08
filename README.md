@@ -12,6 +12,15 @@ npx skills add pressroom-ai/goldbeater-skill
 
 The skill is [`skills/goldbeater/SKILL.md`](skills/goldbeater/SKILL.md): when to use Goldbeater, how to connect, and the rules for reading a finding. The same file is served at https://goldbeater.ai/.well-known/agent-skills/goldbeater/SKILL.md.
 
+## Add it to Claude Code
+
+```sh
+claude plugin marketplace add pressroom-ai/goldbeater-skill
+claude plugin install goldbeater@goldbeater
+```
+
+The plugin installs the skill and the MCP server together. Run `/mcp` in Claude Code to sign in to Goldbeater.
+
 ## Connect the MCP server
 
 - Address: `https://api.goldbeater.ai/mcp`, remote MCP over Streamable HTTP.
@@ -31,6 +40,7 @@ The tools only read. A change to an account is made in Goldbeater, where a perso
 
 - `skills/goldbeater/SKILL.md`: the skill.
 - `plugin.json` and `mcp.json`: the same skill and server as an [Agent Plugins](https://agent-plugins.org) package.
+- `.claude-plugin/`: the same skill and server as a Claude Code plugin, and the marketplace entry that installs it.
 - `LICENSE`: MIT, for the files in this repository.
 
 These files are written from goldbeater.ai's own content, so a change is made there and a pull request here isn't merged. Questions go to support@goldbeater.ai.
